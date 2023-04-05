@@ -2,4 +2,5 @@ import matplotlib
 import numpy
 import xarray
 
-print("Hello world")
+def print_hello_world():
+    print("Hello world")
