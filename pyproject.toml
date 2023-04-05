@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "thisisatest"
-version = "0.0.1"
+version = "0.0.2"
 description = "Figuring out how to package a party"
 readme = "README.md"
 authors = [{ name = "Thomas Konings", email = "konings.thomas@gmail.com" }]
@@ -33,7 +33,7 @@ dev = ["black", "bumpver", "pip-tools", "pytest"]
 Homepage = "https://github.com/Magritte-code/p3droslo"
 
 [tool.bumpver]
-current_version = "0.0.1"
+current_version = "0.0.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true
